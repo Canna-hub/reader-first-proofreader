@@ -9,22 +9,48 @@
 
 <body>
 
-  <h1>Reader First Proofreader</h1>
+  <body>
 
-  <p>Preserve the author. Remove only the distractions.</p>
+  <div class="container">
 
-  <textarea
-    id="manuscript"
-    placeholder="Paste your writing here..."
-    rows="20"
-    cols="60"
-  ></textarea>
+    <header>
+      <h1>Reader First Proofreader</h1>
+      <p class="subtitle">
+        Preserve the author. Remove only the distractions.
+      </p>
+    </header>
 
-  <br><br>
+    <div class="editor">
 
-  <button id="analyzeButton">Analyze My Writing</button>
+      <main>
+        <textarea
+          id="manuscript"
+          placeholder="Paste your manuscript here..."
+        ></textarea>
+      </main>
 
-  <div id="results"></div>
+      <aside class="panel">
+
+        <h2>Reader Friction</h2>
+
+        <p>
+          We'll look for things that may interrupt the reader,
+          without rewriting your voice.
+        </p>
+
+        <button id="analyzeButton">
+          Analyze My Writing
+        </button>
+
+        <div id="results"></div>
+
+      </aside>
+
+    </div>
+
+  </div>
+
+</body>
 
 </body>
 </html>
